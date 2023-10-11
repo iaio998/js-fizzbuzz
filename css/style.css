@@ -4,9 +4,10 @@
   margin: 100px auto;
 }
 .box {
-  width: calc(100% / 10 - 2px);
-  height: calc(100% / 10 - 2px);
+  width: calc(100% / 10 - 10px);
+  height: calc(100% / 10 - 10px);
   border: 1px solid black;
+  margin: 5px;
 }
 .even {
   background-color: orange;
