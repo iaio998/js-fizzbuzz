@@ -10,7 +10,7 @@ for (let i = 1; i < 101; i++) {
     "d-flex",
     "justify-content-center",
     "align-items-center",
-    "bg-success",
+    "bg-primary",
     "fw-bolder"
   );
 
@@ -18,7 +18,7 @@ for (let i = 1; i < 101; i++) {
     const fizzBuzz = "FizzBuzz";
     console.log(fizzBuzz);
     boxEl.innerHTML = fizzBuzz;
-    boxEl.classList.add("bg-info");
+    boxEl.classList.add("bg-success");
   } else if (i % 3 === 0) {
     const fizz = "Fizz";
     console.log(fizz);
