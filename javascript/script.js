@@ -10,7 +10,8 @@ for (let i = 1; i < 101; i++) {
     "d-flex",
     "justify-content-center",
     "align-items-center",
-    "bg-success"
+    "bg-success",
+    "fw-bolder"
   );
 
   if (i % 3 === 0 && i % 5 === 0) {
